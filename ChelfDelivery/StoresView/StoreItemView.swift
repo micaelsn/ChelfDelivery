@@ -24,6 +24,8 @@ struct StoreItemView: View {
             }
             
             Spacer()
+        }.onTapGesture {
+            print("Clicou em \(order.name)")
         }
     }
 }
