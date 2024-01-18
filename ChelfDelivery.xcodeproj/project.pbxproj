@@ -20,6 +20,9 @@
 		AF493B402B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B3F2B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift */; };
 		AF4C06812B595D6200AAA991 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C06802B595D6200AAA991 /* OrderTypeView.swift */; };
 		AF4C06842B596AF000AAA991 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C06832B596AF000AAA991 /* CarouselItemView.swift */; };
+		AF4C06862B596C7500AAA991 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C06852B596C7500AAA991 /* CarouselTabView.swift */; };
+		AF4C06892B596FBC00AAA991 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C06882B596FBC00AAA991 /* StoreItemView.swift */; };
+		AF4C068B2B59714C00AAA991 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C068A2B59714C00AAA991 /* StoresContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		AF493B3F2B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChelfDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AF4C06802B595D6200AAA991 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		AF4C06832B596AF000AAA991 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		AF4C06852B596C7500AAA991 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		AF4C06882B596FBC00AAA991 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		AF4C068A2B59714C00AAA991 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 		AF493B212B585BE500B1A04C /* ChelfDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				AF4C06872B596F9100AAA991 /* StoresView */,
 				AF0AE6792B58BBCA000178B8 /* Model */,
 				AF0AE6762B58A725000178B8 /* GridView */,
 				AF0AE6732B589F2A000178B8 /* App */,
@@ -181,8 +188,18 @@
 			isa = PBXGroup;
 			children = (
 				AF4C06832B596AF000AAA991 /* CarouselItemView.swift */,
+				AF4C06852B596C7500AAA991 /* CarouselTabView.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		AF4C06872B596F9100AAA991 /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C06882B596FBC00AAA991 /* StoreItemView.swift */,
+				AF4C068A2B59714C00AAA991 /* StoresContainerView.swift */,
+			);
+			path = StoresView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,10 +336,13 @@
 				AF4C06842B596AF000AAA991 /* CarouselItemView.swift in Sources */,
 				AF493B252B585BE500B1A04C /* ContentView.swift in Sources */,
 				AF0AE67D2B58BC6D000178B8 /* DataSourceMock.swift in Sources */,
+				AF4C068B2B59714C00AAA991 /* StoresContainerView.swift in Sources */,
 				AF4C06812B595D6200AAA991 /* OrderTypeView.swift in Sources */,
+				AF4C06892B596FBC00AAA991 /* StoreItemView.swift in Sources */,
 				AF0AE6782B58A740000178B8 /* OrderTypeGridView.swift in Sources */,
 				AF493B232B585BE500B1A04C /* ChelfDeliveryApp.swift in Sources */,
 				AF0AE6752B589F76000178B8 /* NavigationBar.swift in Sources */,
+				AF4C06862B596C7500AAA991 /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
