@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0AE6752B589F76000178B8 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AE6742B589F76000178B8 /* NavigationBar.swift */; };
+		AF0AE6782B58A740000178B8 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AE6772B58A740000178B8 /* OrderTypeGridView.swift */; };
+		AF0AE67B2B58BBE4000178B8 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AE67A2B58BBE4000178B8 /* OrderType.swift */; };
+		AF0AE67D2B58BC6D000178B8 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AE67C2B58BC6D000178B8 /* DataSourceMock.swift */; };
 		AF493B232B585BE500B1A04C /* ChelfDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B222B585BE500B1A04C /* ChelfDeliveryApp.swift */; };
 		AF493B252B585BE500B1A04C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B242B585BE500B1A04C /* ContentView.swift */; };
 		AF493B272B585BE600B1A04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF493B262B585BE600B1A04C /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		AF493B342B585BE700B1A04C /* ChelfDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B332B585BE700B1A04C /* ChelfDeliveryTests.swift */; };
 		AF493B3E2B585BE700B1A04C /* ChelfDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B3D2B585BE700B1A04C /* ChelfDeliveryUITests.swift */; };
 		AF493B402B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF493B3F2B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift */; };
+		AF4C06812B595D6200AAA991 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C06802B595D6200AAA991 /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF0AE6742B589F76000178B8 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		AF0AE6772B58A740000178B8 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		AF0AE67A2B58BBE4000178B8 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		AF0AE67C2B58BC6D000178B8 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		AF493B1F2B585BE500B1A04C /* ChelfDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChelfDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF493B222B585BE500B1A04C /* ChelfDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChelfDeliveryApp.swift; sourceTree = "<group>"; };
 		AF493B242B585BE500B1A04C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,7 @@
 		AF493B392B585BE700B1A04C /* ChelfDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChelfDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF493B3D2B585BE700B1A04C /* ChelfDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChelfDeliveryUITests.swift; sourceTree = "<group>"; };
 		AF493B3F2B585BE700B1A04C /* ChelfDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChelfDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF4C06802B595D6200AAA991 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF0AE6722B589F1E000178B8 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AE6742B589F76000178B8 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		AF0AE6732B589F2A000178B8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AF493B222B585BE500B1A04C /* ChelfDeliveryApp.swift */,
+				AF493B242B585BE500B1A04C /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF0AE6762B58A725000178B8 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AE6772B58A740000178B8 /* OrderTypeGridView.swift */,
+				AF4C06802B595D6200AAA991 /* OrderTypeView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		AF0AE6792B58BBCA000178B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AE67A2B58BBE4000178B8 /* OrderType.swift */,
+				AF0AE67C2B58BC6D000178B8 /* DataSourceMock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AF493B162B585BE500B1A04C = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +139,10 @@
 		AF493B212B585BE500B1A04C /* ChelfDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				AF493B222B585BE500B1A04C /* ChelfDeliveryApp.swift */,
-				AF493B242B585BE500B1A04C /* ContentView.swift */,
+				AF0AE6792B58BBCA000178B8 /* Model */,
+				AF0AE6762B58A725000178B8 /* GridView */,
+				AF0AE6732B589F2A000178B8 /* App */,
+				AF0AE6722B589F1E000178B8 /* NavigationBar */,
 				AF493B262B585BE600B1A04C /* Assets.xcassets */,
 				AF493B282B585BE600B1A04C /* Preview Content */,
 			);
@@ -257,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0AE67B2B58BBE4000178B8 /* OrderType.swift in Sources */,
 				AF493B252B585BE500B1A04C /* ContentView.swift in Sources */,
+				AF0AE67D2B58BC6D000178B8 /* DataSourceMock.swift in Sources */,
+				AF4C06812B595D6200AAA991 /* OrderTypeView.swift in Sources */,
+				AF0AE6782B58A740000178B8 /* OrderTypeGridView.swift in Sources */,
 				AF493B232B585BE500B1A04C /* ChelfDeliveryApp.swift in Sources */,
+				AF0AE6752B589F76000178B8 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
