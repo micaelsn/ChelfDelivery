@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProductDetailQuantityView: View {
-    @State private var productQuantity = 1
+    @Binding var productQuantity: Int
     
     func setQuantity(quantity: Int){
         if(quantity + productQuantity >= 1){
@@ -50,6 +50,6 @@ struct ProductDetailQuantityView: View {
 
 struct ProductDetailQuantityView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetailQuantityView()
+        ProductDetailQuantityView(productQuantity: .constant(1))
     }
 }
